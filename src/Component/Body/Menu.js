@@ -14,7 +14,17 @@ class Menu extends Component {
         })
         return (
             <div>
-                {menu}
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            {menu}
+                        </div>
+                        <div className="col-md-6">
+                        
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         )
     }
