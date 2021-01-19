@@ -1,14 +1,10 @@
-import Body from 'body/body';
-import Footer from 'footer/footer';
-import Header from 'header/header';
-import React from 'React';
+import React from 'react';
+import Header from '../Header/Header';
 
 const component =()=>{
     return (
         <div>
             <Header />
-            <Body />
-            <Footer />
         </div>
     )
 }
